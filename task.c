@@ -3,7 +3,10 @@
 #include "task.h"
 
 void task1() {
-    printf("Task 1 is not implemented yet.\n");
+void findFourBits() {
+    char num = getValidCharInteger(-128, 127); 
+    printHigherBits(num); 
+}
 }
 
 void task2() {
