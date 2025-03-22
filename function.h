@@ -1,10 +1,16 @@
-
 #ifndef FUNCTION_H
 #define FUNCTION_H
 
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+
+typedef struct {
+    unsigned int high_bits : 4;
+} BitField;
+char getValidCharInteger(int min, int max);
+void printHigherBits(char num);
+void findFourBits();
 
 struct workinfo;
 void input_Number(int*);
