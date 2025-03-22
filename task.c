@@ -1,12 +1,8 @@
-
 #include "function.h"
 #include "task.h"
 
 void task1() {
-void findFourBits() {
-    char num = getValidCharInteger(-128, 127); 
-    printHigherBits(num); 
-}
+    findFourBits();
 }
 
 void task2() {
@@ -53,7 +49,7 @@ void task2() {
                 return;
             }
             default:
-                printf("Invalid option\n");
+                printf("Oh! There is no this task, try again\n");
                 break;
         }
     }
