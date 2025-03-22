@@ -1,4 +1,3 @@
-main.c
 #include "function.h"
 #include"task.h"
 
